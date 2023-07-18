@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* nav sectoin style statr herer */
+.nav-container {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.logo-container img {
+    width: 113px;
+    object-fit: cover;
+    margin-right: 44px;
+    margin-left: -11%;
+    height: 55px;
+}
+
+.logo-titale {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.Gamer {
+    color: #E73DA3;
+}
+
+.nav-iteams-container {
+    display: flex;
+    width: 50%;
+    gap: 78px;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.nav-iteams-container a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-right-sectoin {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 169px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39px;
+}
+
+.nav-right-sectoin .fa-youtube {
+    color: red;
+    margin: 10px;
+}
+
+.nav-right-sectoin .fa-tiktok {
+
+    color: black;
+}
+
+/* nav sectoin style end here */
+
+/* banner sectoin styles start here */
+.banner-container {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-right {
+    width: 50%;
+}
+
+.banner-left {
+    /* text-align: center; */
+    background-image: url(../images/Group\ 14.png);
+    width: 50%;
+}
+
+.banner-left h2 {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 20%;
+}
+
+.banner-left h1 {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    margin-right: 7px;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-left  ul>li {
+    color: #534C64;
+    text-align: center;
+    font-size: 20px;
+    list-style: none;
+    font-weight: 500;
+    line-height: normal;
+    /* text-transform: lowercase; */
+}
+.text-container {
+  text-align: center; /* Optional: To center the text within the container */
+}
+
+.inline-text {
+  display: inline-block;
+  margin: 0 10px; /* Optional: Add some margin between the text elements */
+}
+
+
+.list-iteam{
+    margin-left: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* banner sectoin styles end here */
