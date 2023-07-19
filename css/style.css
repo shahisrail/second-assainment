@@ -241,6 +241,11 @@
     border-radius: 10px;
    
 }
+.overlay i {
+    margin-bottom: 71px;
+    left: 68px;
+    position: relative;
+}
 i.fa.fa-play-circle {
     color: white;
 }
