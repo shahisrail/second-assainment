@@ -328,13 +328,11 @@ i.fa.fa-play-circle {
 
 .btn-container :hover {
     color: #e852ad;
-    /* background-color: darkblue; */
     transition: .3s;
 }
 
 .btn-container2 :hover {
     color: #e852ad;
-    /* background-color: darkblue; */
     transition: .3s;
 
 }
