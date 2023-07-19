@@ -1,0 +1,37 @@
+.btn-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .btn-container {
+    flex: 0 0 calc(33.33% - 10px); /* Display three buttons per row */
+    margin-bottom: 20px;
+    max-width: calc(33.33% - 10px); /* Set max width for each button container */
+    text-align: center;
+  }
+  
+  .btn {
+    display: block;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  /* Add styles for other button classes as needed */
+  
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .btn-container {
+      flex: 0 0 calc(50% - 10px); /* Display two buttons per row */
+      max-width: calc(50% - 10px);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* Adjust styles for even smaller screens */
+    
+  }
+  
