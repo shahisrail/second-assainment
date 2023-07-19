@@ -1,74 +1,330 @@
 /* mobile device */
+
+/* nav sectoin start here */
 @media screen and (max-width:425px) {
-    .nav-container {
-       flex-direction: column;
-    
-    }
-    .nav-iteams-container {
-      flex-direction: column;
-      margin: 0px auto;
-      margin-top: 30px;
-      gap: 20px;
+  .nav-container {
+    flex-direction: column;
+
   }
-    .logo-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 50%;
-      margin-top: 14px;
+
+  .nav-iteams-container {
+    flex-direction: column;
+    margin: 0px auto;
+    margin-top: 30px;
+    gap: 20px;
   }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 14px;
+  }
+
   .logo-container img {
-   width: 115px;
-   height: 37px;
-   object-fit: cover;
-   margin-right: 14px;
-   margin-left: 5%;
+    width: 115px;
+    height: 37px;
+    object-fit: cover;
+    margin-right: 14px;
+    margin-left: 5%;
+  }
+
+  .nav-right-sectoin {
+    margin-top: 12px;
+  }
+
+  .logo-titale {
+    font-size: 40px;
+  }
+
+  .nav-right-sectoin .fa-youtube {
+    font-size: 23px;
+  }
+
+  .nav-right-sectoin .fa-tiktok {
+    font-size: 23px;
+  }
+
+  /* nav sectoin ends here */
+
+
+  /* banner sectoin start here */
+
+
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+
+  .banner-left {
+    width: 80%;
+    padding: 0px;
+    margin-left: 50px;
+    margin-top: -42px;
+    height: 500px;
+  }
+
+  .banner-right {
+    width: 71%;
+    padding: 61px;
+  }
+
+  .text-container {
+    text-align: left;
+    margin-left: -176px;
+  }
+
+  .btn-primary {
+    margin-top: 17px;
+    margin-left: 30px;
+  }
+
+  .banner-left h1 {
+    font-size: 80px;
+  }
+
+  /* banner sectoin ends here */
+
+
+
+  /* game sectoin start here */
+
+
+  /* game sectoin ends here */
+  .game-container {
+    flex-direction: column;
+    margin-left: 70px
+  }
+
+  .game-card {
+    text-align: center;
+  }
+
+  .card-captoin {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 14px;
+    line-height: 19px;
+    margin-right: 33px;
+   
 }
-.nav-right-sectoin{
-   margin-top: 12px;
+.play-instantly {
+  
+  font-size: 34px;
+  line-height: 0px;
+  
 }
-.logo-titale {
-   font-size: 40px;
+.details h2 {
+  color: #0B0223;
+  font-size: 34px;
+  font-weight: 700;
+  margin-top: -16px;
+  line-height: 40px;
+ 
 }
+
+  .rd-container {
+    flex-direction: column;
+  }
+.image , .man-img{
+  width: 90%;
+  margin-top: -47px;
+}
+.another-img {
+  right: 14%;
+  position: relative;
+  top: -82px;
+  height: 150px;
+}
+.details{
+  text-align: center;
+    margin-right: 47px;
+}
+/* .btn-container{
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr);
+} */
+.fotter-container {
+  background: #0B0223;
+  height: 562px;
+  padding: 14px;
+  margin-top: -85%;;
+
+}
+.fotter-drescriptoin {
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 15px;
+    line-height: 36px;
+    /* margin-right: 13px; */
+    margin-left: -33px;
     
-    
 }
+li{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.overlay{
+  display: none;
+}
+.footer-icon {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-left: 57px;
+}
+
+}
+
+
+
 
 
 
 
 /* tablate device */
-@media screen and (min-width:425px) and (max-width:768px) {
-   .nav-container {
-      flex-direction: column;
+@media screen and (min-width:426px) and (max-width:768px) {
+  .nav-container {
+    flex-direction: column;
+
+  }
+
+  .nav-iteams-container {
+    flex-direction: column;
+    margin: 0px auto;
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 14px;
+  }
+
+  .logo-container img {
+    width: 115px;
+    height: 55px;
+    object-fit: cover;
+    margin-right: 14px;
+    margin-left: 5%;
+  }
+
+  .nav-right-sectoin {
+    margin-top: 12px;
+  }
+
+  .logo-titale {
+    font-size: 45px;
+  }
+  .nav-right-sectoin .fa-youtube {
+    font-size: 23px;
+  }
+
+  .nav-right-sectoin .fa-tiktok {
+    font-size: 23px;
+  }
+  * banner sectoin start here */
+
+
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+
+  .banner-left {
+    width: 80%;
+    padding: 0px;
+    margin-left: 50px;
+    height: 500px;
+  }
+
+  .banner-right {
+    width: 71%;
+    padding: 61px;
+  }
+
+  .text-container {
+    text-align: left;
+    margin-left: -176px;
+  }
+
+  .btn-primary {
+    margin-top: 17px;
+    margin-left: 30px;
+  }
+
+  .banner-left h1 {
+    font-size: 80px;
+  }
+
+  /* banner sectoin ends here */
+
+  /* game sectoin ends here */
+  .game-container {
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    margin-left: 43px;
+  }
+
+  .game-card {
+    text-align: center;
+  }
+
+  .card-captoin {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 14px;
+    line-height: 19px;
    
-   }
-   .nav-iteams-container {
-     flex-direction: column;
-     margin: 0px auto;
-     margin-top: 30px;
-     gap: 20px;
- }
-   .logo-container {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 50%;
-     margin-top: 14px;
- }
- .logo-container img {
-   width: 115px;
-   height: 55px;
-   object-fit: cover;
-   margin-right: 14px;
-   margin-left: 5%;
 }
-.nav-right-sectoin{
-  margin-top: 12px;
+.play-instantly {
+  
+  font-size: 34px;
+  line-height: 0px;
+  
 }
-.logo-titale {
-  font-size: 45px;
+.details h2 {
+  color: #0B0223;
+  font-size: 34px;
+  font-weight: 700;
+  margin-top: -16px;
+  line-height: 40px;
+ 
 }
-   
-   
+
+  .rd-container {
+    flex-direction: column;
+  }
+.image , .man-img{
+  width: 90%;
+  margin-top: -47px;
+}
+.another-img {
+  right: 14%;
+  position: relative;
+  top: -82px;
+  height: 150px;
+}
+.details{
+  text-align: center;
+    margin-right: 47px;
+}
+.overlay{
+  display: none;
+}
+/* .btn-container{
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr);
+} */
+.fotter-container {
+  background: #0B0223;
+  height: 400px;
+  margin-top: -45%;
+  padding: 14px;
+}
+
+  
 }

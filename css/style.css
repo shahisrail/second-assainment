@@ -69,11 +69,14 @@
 .nav-right-sectoin .fa-youtube {
     color: red;
     margin: 10px;
+
+    font-size: 23px;
 }
 
 .nav-right-sectoin .fa-tiktok {
 
     color: black;
+    font-size: 23px;
 }
 
 /* nav sectoin style end here */
@@ -89,9 +92,9 @@
 }
 
 .banner-left {
-    /* text-align: center; */
     background-image: url(../images/Group\ 14.png);
     width: 50%;
+
 }
 
 .banner-left h2 {
@@ -118,7 +121,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-.banner-left  ul>li {
+.banner-left ul>li {
     color: #534C64;
     text-align: center;
     font-size: 20px;
@@ -127,27 +130,348 @@
     line-height: normal;
     /* text-transform: lowercase; */
 }
+
 .text-container {
-  text-align: center; /* Optional: To center the text within the container */
+    text-align: left;
+    margin-right: 20px;
 }
 
 .inline-text {
-  display: inline-block;
-  margin: 0 10px; /* Optional: Add some margin between the text elements */
+    margin-left: 210px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
 }
 
-
-.list-iteam{
+.list-iteam {
     margin-left: -20px;
 }
 
+.btn-primary {
+    margin-left: 205px;
+    margin-top: 17px;
+    height: 45px;
+    border: 1px;
+    width: 102px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
 
+.btn-secendory {
+    margin-left: 20px;
+    margin-top: 17px;
+    height: 45px;
+    border: 1px;
+    width: 102px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
 
-
-
-
-
-
-
+.banner-right img {
+    width: 100%;
+    padding: 0px auto;
+}
 
 /* banner sectoin styles end here */
+
+/* game sectoin start here */
+.game-titale {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 50px;
+}
+
+.funny-vidieo {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.game-card{
+    position: relative;
+    display: inline-block;
+}
+
+.game-driscriptoin {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.card-captoin {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.game-card img {
+    width: 285px;
+    height: 382px;
+    display:block ;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 86%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    color: red;
+    font-size: 30px;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+   
+}
+.overlay .play-circle
+.hover:hover{
+    font-size: 12px;
+}
+  .game-card:hover .overlay {
+    opacity: 1; 
+    top: 2px;
+  }
+
+
+/* game sectoin ends here */
+
+
+/* 3rd sectoin start here */
+
+.details {
+    text-align: center;
+    margin-right: 47px;
+}
+
+.details h2 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-instantly {
+    text-align: right;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rd-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14%;
+    gap: 120px;
+    margin-top: 50px;
+    padding-bottom: 300px;
+}
+
+.another-img {
+    position: relative;
+    height: 230px;
+    bottom: 153px;
+    right: 90px;
+}
+
+/* 3rd sectoin ends here */
+.btn-sectoin {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 143px;
+    margin-top: 110px;
+    padding-top: 10px;
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%
+}
+
+.btn-container img {
+    height: 50px;
+    width: 50px;
+    padding: 13px;
+    margin: -3px;
+}
+
+.btn-container :hover {
+    color: #e852ad;
+    /* background-color: darkblue; */
+    transition: .3s;
+}
+
+.btn-container2 :hover {
+    color: #e852ad;
+    /* background-color: darkblue; */
+    transition: .3s;
+
+}
+
+.btn,
+.btn-Adventure,
+.btn-Arcade,
+.btn-Educational,
+.btn-Word {
+    border-radius: 50px;
+    background: #FFF;
+    color: #0B0223;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    height: 54px;
+    align-items: center;
+    gap: 11px;
+    justify-content: center;
+    margin-left: 10px;
+    border: 1px;
+
+}
+
+.btn-container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px
+}
+
+.btn-container2 img {
+    height: 50px;
+    width: 50px;
+    padding: 13px;
+    margin: -3px;
+}
+
+.btn-Role,
+.btn-Music,
+.btn-Puzzle,
+.btn-Strategy {
+    border-radius: 50px;
+    background: #FFF;
+    color: #0B0223;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 0 10px;
+    display: flex;
+    height: 54px;
+    align-items: center;
+    gap: 11px;
+    justify-content: center;
+    margin-left: 10px;
+    border: 1px;
+}
+
+
+
+/* .btn-Strategy:hover{
+    background-color: #4EC5F7;
+}    */
+
+/* fotter style  */
+.fotter-container {
+    background: #0B0223;
+    height: 400px;
+    padding: 14px;
+    margin-top: -16%;
+}
+
+
+.fotter-haead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    /* gap: 7px; */
+}
+
+.fotter-haead img {
+    height: 32px;
+    width: 62px;
+}
+
+
+.fotter-titale {
+    color: white;
+    font-size: 32px;
+
+}
+
+.fotter-Gamer {
+    color: #E73DA3;
+}
+
+.fotter-drescriptoin {
+
+    color: #FFF;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.fotter-drescriptoin a{
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 24px;
+
+}
+.footer-icon {
+ text-align: center;
+ padding: 14px;
+}
+.footer-icon i{
+    color: #FFF;
+    width: 40px;
+    height: 40px;
+    font-size: 26px;
+   }
+
+   .fotter-trems{
+    text-align: center;
+    margin-top: 15px;
+   }
+   .fotter-trems ul li{
+    list-style: none;
+   }
+   .fotter-trems ul li a{
+     text-decoration: none;
+     color: rgba(255, 255, 255, 0.60);
+     margin-left: 16px;
+     font-weight: 600;
+     margin-bottom: 40px;
+     font-size: 16px;
+font-style: normal;
+font-weight: 500;
+   }
+   .fotter-trems p{
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.60);
+    margin-left: 16px;
+    font-weight: 600;
+    margin-top: 40px;
+    font-size: 16px;
+font-style: normal;
+font-weight: 500;
+  }
