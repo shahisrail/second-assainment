@@ -151,7 +151,7 @@
 .btn-container {
   display: grid;
   margin-top: 10px;
-  grid-template-columns: 1;
+  grid-template-columns: repeat(2,1fr);
   margin-left: -91px;
   width: 300px;
   gap: 20px;
@@ -161,8 +161,8 @@
 .btn-container2 {
   /* flex-wrap: wrap; */
   display: grid;
-  margin-top: 10px;
-  grid-template-columns: 1;
+  margin-top: -172px;
+  grid-template-columns: repeat(2,1fr);
   margin-left: -91px;
   width: 300px;
   gap: 20px;
@@ -375,7 +375,7 @@ li{
 .btn-container2 {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  margin-top: 23px;
+  margin-top: -165px;
   gap: 24px;
 }
 .btn-container {
