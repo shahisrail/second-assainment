@@ -329,11 +329,13 @@ i.fa.fa-play-circle {
 .btn-container :hover {
     color: #e852ad;
     transition: .3s;
+    border: 1px solid tomato;
 }
 
 .btn-container2 :hover {
     color: #e852ad;
     transition: .3s;
+    border: 1px solid tomato;
 
 }
 
@@ -361,7 +363,7 @@ i.fa.fa-play-circle {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    margin-top: -83px;
+    margin-top: -143px;
 }
 
 .btn-container2 img {
